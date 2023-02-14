@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:bookly/core/const/colors.dart';
+import 'package:bookly/core/const/const.dart';
 
 import 'Features/splash/presentation/views/splash_view.dart';
 

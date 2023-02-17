@@ -62,7 +62,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
     Future.delayed(const Duration(seconds: 3), () {
       Get.to(
         () => const HomeView(),
-        transition: Transition.zoom,
+        transition: Transition.cupertinoDialog,
         duration: kTransitionDuration,
       );
     });

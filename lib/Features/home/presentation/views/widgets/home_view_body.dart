@@ -1,6 +1,7 @@
 import 'package:bookly/core/const/styles.dart';
 import 'package:flutter/material.dart';
 
+import 'best_sellers_list_view.dart';
 import 'custom_app_bar.dart';
 import 'featured_Books_list_view.dart';
 
@@ -23,6 +24,7 @@ class HomeViewBody extends StatelessWidget {
             "Best Seller",
             style: Styles.titleMeduim,
           ),
+          BestSellersListView(),
         ],
       ),
     );

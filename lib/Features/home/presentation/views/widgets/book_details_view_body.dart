@@ -1,3 +1,4 @@
+import 'package:bookly/Features/home/presentation/views/widgets/custom_list_view_item.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_book_details_appbar_body.dart';
@@ -12,6 +13,7 @@ class BookDetailsViewBody extends StatelessWidget {
       child: Column(
         children: const [
           CustomBookDetailsAppBar(),
+          FeaturedListViewItem(),
         ],
       ),
     );
